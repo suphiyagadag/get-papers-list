@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "get-papers-list"
+version = "0.1.0"
+description = "Fetch PubMed papers with pharmaceutical authors"
+authors = ["Suphiya <sufiyagadag@gmail.com>"]
+license = "MIT"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.14"
+numpy = "1.26.4"
+biopython = "^1.85"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+
